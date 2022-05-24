@@ -3,18 +3,18 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
 
-const UsersModel = require('')
+// const UsersModel = require('')
 
 
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("")
+// mongoose.connect("")
 
-const connection = mongoose.connection;
-connection.once('open', () =>{
-    console.log("mongodb connection established successfully");
-})
+// const connection = mongoose.connection;
+// connection.once('open', () =>{
+//     console.log("mongodb connection established successfully");
+// })
 
 // app.get('/getUsers', (req, res) =>{
 //     UsersModel.find({}, (err, user) =>{
